@@ -1,0 +1,16 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: darkblue;
+    height: 100vh;
+    color: white;
+    width: 60%;
+    margin: auto;
+    
+    a{
+        color: white;
+        margin-top: 30px;
+        align-self: end;
+    }
+}
