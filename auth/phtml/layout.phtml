@@ -1,0 +1,20 @@
+<?php 
+   
+?>
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Projet authentification</title>
+</head>
+<body>
+    <?php if($route==="connexion"){ ?>
+        <?= require "login.phtml" ?>
+    <?php } else if($route==="inscription"){ ?>
+        <?= require "register.phtml" ?>
+    <?php } else { ?>
+        <?= require "home.phtml" ?>
+    <?php } ?>
+</body>
+</html>

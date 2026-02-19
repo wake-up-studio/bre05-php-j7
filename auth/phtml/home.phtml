@@ -1,0 +1,14 @@
+<?php
+    if(isset($_SESSION["user"])){
+        $user = $_SESSION["user"];
+    }
+?>
+
+<main>
+    <?php if(isset($user)){ ?>
+        <h1>Hello <?= $user ?></h1>
+    <?php } ?>
+    
+    <button><a href="index.php?route=inscription">Inscription</a></button>
+    <button><a href="index.php?route=connexion">Connexion</a></button>
+</main>
